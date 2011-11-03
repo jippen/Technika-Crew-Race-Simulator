@@ -1,0 +1,14 @@
+Pre-reqs:
+   A working webserver with PHP installed (this was tested on a LAMP stack)
+   Cron access
+   MySQL for data storage and retrieval (Very small)
+   PHP Tidy
+   
+Installation Instructions:
+1: Import crewrace.sql into MySQL (Creates the db 'crewrace' by default)
+2: Create a MySQL user with at least the following perms in the crewrace db:
+   * SELECT on songs
+   * TRUNCATE,INSERT,SELECT on race 
+3: Add the credentials for the user and access to the DB to config.php
+4: Run scraper.php once to make sure everything runs
+5: Create a cronjob that calls scraper.php daily (works fine via php cli)

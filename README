@@ -1,0 +1,10 @@
+    This is a fairly straightforward PHP script for scraping DJ MAX Technika 
+US's site for crewrace information, and presenting it in a simple to navigate
+list, which should match the lineup available on the actual machine.
+
+    It does require a few extra installation steps to function, which are given 
+in the INSTALL file, so be sure to check that before complaining that the script
+does not work.
+
+    It is known that the race table is incomplate, and the stylesheet is empty.
+I may go back and fix these, but community contributions are more than welcome.
